@@ -1,0 +1,17 @@
+import java.awt.Color;
+import javax.swing.JFrame;
+public class Project1 {
+
+    public static void main(String[] args) {
+        JFrame frame=new JFrame();
+        GamePlay gameplay=new GamePlay();
+        frame.setSize(700, 600);
+        frame.setTitle("brickbreaker");
+        frame.setVisible(true);
+        frame.setResizable(false);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setBackground(Color.blue);
+        frame.add(gameplay);
+        
+    }
+}
